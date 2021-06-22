@@ -1,0 +1,267 @@
+        body{
+            margin:0;
+        }
+        a{
+            text-decoration: none;
+        }
+        .beijing{
+            padding:0;
+            margin:0;
+            border:0;
+            height: 750px;
+            /*这里放入背景图*/
+            background: url(图片和动画/背景.jpg) no-repeat;
+            background-size: 100%;
+            display: flex;
+        }
+        .box{
+            /*设置盒子的样式*/
+            background: rgba(0,0,0,.4);
+            width: 25%;
+            margin: 0 auto;
+            margin-top: 5%;
+            text-align: center;
+            color: white;
+            border-radius: 10px;
+        }
+        .box img{
+            /*这里设置头像的大小*/
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-top: 15px;
+        }
+        .box h1{
+            font-size: 40px;
+            font-weight:100;
+        }
+        .box p{
+            margin-top: 150px;
+            text-align:  center;
+        }
+        .box ul{
+            margin:0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+        .box ul li{
+            list-style: none;
+        }
+        .box ul li img{
+            width: 30px;
+            height: 30px;
+            color: width;
+            border-radius: 40%;
+            background-color:background-color: rgba(255,255,255,0.5);
+        }
+        .denglu{
+            height:30px;
+            font-size: 20px;
+            text-align: right;
+            color: white;
+            right: 20px;
+            top: 20px;
+            position: absolute;
+            font-weight: bold;
+        }
+        .denglu:hover a{
+            color: yellow;
+        }
+        .denglu a{
+            color: white;
+        }
+        ul li{
+            list-style: none;
+        }
+        .name{
+            font-size: 20px;
+            top:33px;
+            position: fixed;
+            font-weight: bold;
+        }
+        .gongneng{
+            width: 1430px;
+            height: 50px;
+            right: 3%;
+            top:20px;
+            font-size:20px;
+            text-align: center;
+            position: fixed;
+            transition: 1s;
+            border-radius: 10px;
+            background-color: rgba(255,255,255,0.5);
+        }
+        .gongneng ul{
+            margin: 0;
+            padding:0;
+        }
+        .gongneng ul>li{
+            float: left;
+        }
+        .gongneng ul>li{
+             color: black;
+             padding-right: 30px;     
+        }
+        .gongneng ul>li a{
+             color: black;
+        }
+        .gongneng ul>li img{
+            width: 20px;
+            height: 20px;
+            border-radius: 5px;
+        }
+        .gongneng ul>li a:hover{
+            color: rgba(255,210,0,1);
+        }
+        .two{
+            display:none;
+            width: 80px;
+            font-size: 20px;
+            text-align: center;
+            padding-top: 30px;
+            transition: 1s;
+            background-color: rgba(255,255,255,0.5);
+            border-radius: 10px;
+        }
+        .level{
+            color: black;
+            padding-right: 20px;
+            width: 60px;
+        }
+        .level:hover .two{display:block;}
+        .level:hover {
+            cursor: pointer;
+            color: rgba(255,210,0,1);
+        }
+        .notice{
+            text-align:center;
+            font-size: 20px;
+            background: url(图片和动画/流动背景.jpg) no-repeat;
+            background-size: 70%;
+            margin-left: 400px;
+        }
+        .notice marquee{
+            border-radius: 5px;
+        }
+        .guite{
+            font-size: 30px;
+            text-align:center;
+        }
+        .guite p{
+            margin:0;
+            font-family: 楷体;
+        }
+        .guite img{
+            width: 30px;
+            height: 30px;
+        }
+        .guite1{
+            text-align: center;
+        }
+        .guitechoice1{
+            margin:0;
+            margin-left:20%;
+            text-align: center;
+            height: 165px;
+            width: 200px;
+            font-weight: bold;
+            border-radius: 10px;
+            background:url(图片和动画/记事本.jpg);
+            background-size: 100%;
+            float: left;
+             transition:1s;
+             color: blue;
+        }
+         .guitechoice1 p{
+            display:none;
+         }
+          .guitechoice1:hover p{
+            display: block;
+          }
+           .guitechoice1:hover{
+            background-size: 110%;
+           }
+        .guitechoice2{
+            margin:0;
+            margin-left:11%;
+            text-align:center;
+            height: 165px;
+            width: 200px;
+            font-weight: bold;
+            border-radius: 10px;
+            background:url(图片和动画/音乐.jpg);
+            background-size: 100%;
+            float: left;
+             transition:1s;
+             color: rgba(255,210,0,1);
+        }
+        .guitechoice2 p{
+            display: none;
+        }
+        .guitechoice2:hover p{
+            display: block;
+        }
+        .guitechoice2:hover{
+            background-size: 110%;
+        }
+        .guitechoice3{
+            margin:0;
+            margin-left:70%;
+            text-align:center;
+            height: 165px;
+            width: 200px;
+            font-weight: bold;
+            border-radius: 10px;
+            background:url(图片和动画/回忆录.jpg);
+            background-size: 100%;
+            transition:1s;
+            color: pink;
+        }
+        .guitechoice3 p{
+            margin-top: 0;
+            padding-top: 16px;
+            display: none;
+        }
+        .guitechoice3:hover p{
+            display: block;
+        }
+        .guitechoice3:hover{
+            background-size: 110%;
+        }
+        .essay{
+            font-size: 30px;
+            text-align:center;
+        }
+        .essay p{
+            margin:0;
+            font-family: 楷体;
+        }
+        .essay img{
+            width: 20x;
+            height: 25px;
+        }
+        .hometext{
+            margin:0 300px;
+            margin-top: 20px;
+            margin-left: 360px;
+            text-align: center;
+            height: 400px;
+            width: 800px;
+            font-size: 30px;
+            border-radius: 10px;
+            background:url(图片和动画/文章背景.jpg);
+            background-size: 100%;
+        }
+        .hometext .text1{
+            margin:0;
+            padding: 0;
+            margin-left:40px;
+            margin-top:55px;
+            border-radius: 10px;
+            text-align: center;
+            width: 400px;
+            height:300px;
+            background-color: rgba(255,255,255,0.6);
+            position: absolute;
+        }

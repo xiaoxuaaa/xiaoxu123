@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>相册</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css5.css">
+    <script type="text/javascript" src="相册.js"></script>
+</head>
+<body>
+    <div class="gongneng">
+            <div class="name">
+                Little Pumpkin 的个人博客
+            </div>
+          <ul style="margin-top: 10px;margin-left: 800px;">
+                <li><a href="../index.html"><img src="图片和动画/主页.jpg" alt="">主页</a></li>
+                <li class="level"><img src="图片和动画/分类.jpg" alt="">分类
+                    <ul class="two" style="margin-top: 15px;">
+                        <a href="../音乐/音乐.html"><li style="padding-top: 15px;padding-bottom: 15px;">音乐</li></a>
+                        <a href="../文章/文章.html"><li style="padding-bottom: 15px;">随笔</li></a>
+                        <a href="相册.html"><li style="padding-bottom: 15px;">相册</li></a>
+                    </ul>
+                </li>
+                <li><a href="https://www.bilibili.com/anime/?spm_id_from=333.851.b_696e7465726e6174696f6e616c486561646572.2" target="blank"><img src="图片和动画/追番.jpg" alt="">追番</a></li>
+                <li><a href="../留言板/留言板.html"><img src="图片和动画/留言板.jpg" alt="">留言板</a></li>
+                <li><a href="#"><img src="图片和动画/关于.jpg" alt="">关于？</a></li>
+                <li><a href="../登录注册/登录.html"><img src="图片和动画/登录.jpg" alt="">登录</a></li>
+            </ul> 
+        </div>
+        <div id="test" class="slider" style="margin-top: 200px;margin-left: 350px">
+            <img id="img1" src="图片和动画/1.jpg" class="current">
+            <img id="img2" src="图片和动画/2.jpg">
+            <img id="img3" src="图片和动画/3.jpg">
+            <img id="img3" src="图片和动画/4.jpg">
+            <img id="img3" src="图片和动画/5.jpg">
+            <img id="img3" src="图片和动画/6.jpg">
+          </div>
+          <div style="margin-left: 350px">
+          <button onclick="setCurrent(0)">1</button>      <!--在这里, onClick调用的是用于设置当前图片的方法, 传入参数为图片节点的索引-->
+          <button onclick="setCurrent(1)">2</button>
+          <button onclick="setCurrent(2)">3</button>
+          <button onclick="setCurrent(3)">4</button>
+          <button onclick="setCurrent(4)">5</button>
+          <button onclick="setCurrent(5)">6</button>
+          </div>
+          <script>
+            setInterval(moveNext, 2000);      // 每隔5s, 切换到下一张图片
+          </script>
+
+</body>
+</html>

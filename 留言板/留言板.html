@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>留言板</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css1.css">
+    <script type="text/javascript" src="留言板.js"></script>
+</head>
+<body>
+    <div class="gongneng">
+            <div class="name">
+                Little Pumpkin 的个人博客
+            </div>
+            <ul style="margin-top: 10px;margin-left: 800px;">
+                <li><a href="../index.html"><img src="图片和动画/主页.jpg" alt="">主页</a></li>
+                <li class="level"><img src="图片和动画/分类.jpg" alt="">分类
+                    <ul class="two" style="margin-top: 15px;">
+                        <a href="../音乐/音乐.html"><li style="padding-top: 15px;padding-bottom: 15px;">音乐</li></a>
+                        <a href="../文章/文章.html"><li style="padding-bottom: 15px;">随笔</li></a>
+                        <a href="../相册/相册.html"><li style="padding-bottom: 15px;">相册</li></a>
+                    </ul>
+                </li>
+                <li><a href="https://www.bilibili.com/anime/?spm_id_from=333.851.b_696e7465726e6174696f6e616c486561646572.2" target="blank"><img src="图片和动画/追番.jpg" alt="">追番</a></li>
+                <li><a href="留言板.html"><img src="图片和动画/留言板.jpg" alt="">留言板</a></li>
+                <li><a href="#"><img src="图片和动画/关于.jpg" alt="">关于？</a></li>
+                <li><a href="../登录注册/登录.html"><img src="图片和动画/登录.jpg" alt="">登录</a></li>
+            </ul> 
+        </div>
+        <div class="message_title">
+            <p>留言板</p>
+            <h4>Comments</h4>
+        </div>
+        <ul class="message_ul" id="ul">
+        </ul>
+        <div style="font-size: 14px;margin-top: 50px;margin-left: 350px">
+            <input id="name" type="text" placeholder="昵称（必填）" style="width: 200px; height: 30px;border-radius: 10px;margin-top: 50px">
+            <input id="email" type="text" placeholder="邮箱（必填）" style="width: 200px; height: 30px;border-radius: 10px">
+        </div>
+        <div class="message_text">
+            <textarea name="" id="text" cols="30" rows="10" style="font-size: 20px;width: 800px;height:140px;border-radius: 10px;float:bottom;"></textarea>
+            <br>
+            <input type="button" value="留言" style="cursor: pointer;" onclick="message_enter()">
+        </div>
+</body>
+</html>

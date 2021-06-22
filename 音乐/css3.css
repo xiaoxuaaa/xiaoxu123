@@ -1,0 +1,9 @@
+body{
+    background: url(图片和动画/背景.jpg);
+    background-size: 100%;
+}
+.music{
+    margin-top: 40%;
+    margin-left: 40%;
+    position: absolute;
+}

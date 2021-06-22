@@ -1,0 +1,44 @@
+body{
+    background:url(图片和动画/壁纸.jpg);
+    background-size: 100%;
+}
+.main{
+    width: 350px;
+    height: 400px;
+    margin-top: 10%;
+    margin-left: 39%;
+    font-size: 14px;
+   background-color: rgba(255,255,255,0.5);
+    text-align: center;
+    border-radius: 10px;
+    font-family: inherit;
+    margin-bottom: 60px;
+}
+.main img{
+width: 80px;
+height: 80px;
+}
+.register{
+    margin-right: 5px;
+    color: black;
+    font-weight: bold;
+}
+.forget-password{
+    color: black;
+    font-weight: bold;
+}
+.register-main{
+    width: 350px;
+    height: 500px;
+    margin-top: 10%;
+    margin-left: 39%;
+    font-size: 14px;
+    background-color: rgba(255,255,255,0.5);
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 60px;
+}
+.register-main img{
+width: 80px;
+height: 80px;
+}

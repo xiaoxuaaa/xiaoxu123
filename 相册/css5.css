@@ -1,0 +1,74 @@
+    .message_title{
+        font-size: 20px;
+        text-align: left;
+        width: 820px;
+        height:36px;
+        margin: 0,16px;
+        margin-top: 150px;
+        margin-left: 350px;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+    .message_ul{
+        margin:0;
+        padding: 0;
+        margin-left: 350px;
+        margin-top: 60px;
+    }
+    .message_ul li{
+        height: 30px;
+        margin-top: 50px;
+        cursor: pointer;
+    }
+    .message_ul li a{
+        display:none;
+        color: black;
+        float: right;
+        margin-right: 400px;
+    }
+    .message_ul li hr{
+        width: 800px;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .message_text{
+        margin-left: 350px;
+        margin-top: 20px;
+    }
+    .message_ul li:hover a{
+        display: block;
+    }
+    .message_ul li a:hover{
+        color:pink;
+    }
+    .buttom{
+        margin-top: 150px;
+    }
+.slider {                 /* 指定轮播图容器尺寸, 相对定位, 隐藏溢出内容 */
+    width: 750px;
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+}
+.slider img {             /* 指定每一个图片的尺寸, 过渡时间, 绝对定位 */
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+    position: absolute;
+}
+.slider img {                           /* 指定所有图片水平位移-100% */
+    transform: translateX(-100%);
+}
+.slider img.current {                   /* 指定带有current类的图片不进行水平移动 */
+    transform: translateX(0);
+}
+.slider img.current~img{                /* 指定位于带有current类的图片之后的所有图片水平位移为100% */
+    transform: translateX(100%);
+}
+.slider img.current,                    /* 指定带有current或last类的图片置顶 */
+.slider img.last{
+    z-index: 999;
+}
+body{
+    background-color: pink;
+}
